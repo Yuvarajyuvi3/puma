@@ -251,6 +251,131 @@ button:hover {
     margin-bottom: 20px;
 }
 
+/* 🌐 Responsive Design */
+
+/* For tablets (screen width ≤ 992px) */
+@media (max-width: 992px) {
+    #header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #details {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+    }
+
+    #details ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #contant {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #contant1 {
+        padding-top: 20px;
+    }
+
+    #image {
+        margin-top: 20px;
+    }
+
+    #menu {
+        justify-content: center;
+    }
+
+    .fruits {
+        width: 45%;
+    }
+
+    #container2 {
+        flex-direction: column;
+    }
+
+    #aboutus {
+        text-align: center;
+    }
+}
+
+/* For mobile phones (screen width ≤ 600px) */
+@media (max-width: 600px) {
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #logo img {
+        width: 120px;
+        height: auto;
+    }
+
+    #details ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+    }
+
+    button {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    #contant1 h1 {
+        font-size: 28px;
+    }
+
+    #contant1 p {
+        font-size: 14px;
+    }
+
+    .fruits {
+        width: 90%;
+    }
+
+    #container, #container1, #container2 {
+        margin: 20px 10px;
+        padding: 15px;
+    }
+
+    #product h1 {
+        font-size: 26px;
+    }
+
+    #aboutus h1 {
+        font-size: 26px;
+    }
+
+    #aboutus p {
+        font-size: 14px;
+    }
+}
+
+/* For very small phones (screen width ≤ 400px) */
+@media (max-width: 400px) {
+    #details {
+        display: none; /* optional — hides the menu if it’s too cramped */
+    }
+
+    #contant1 h1 {
+        font-size: 22px;
+    }
+
+    .b1 {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .fruits {
+        width: 100%;
+    }
+}
+
+
 </style>
 </head>
 
@@ -344,4 +469,5 @@ button:hover {
 
 
 </html>
+
 
